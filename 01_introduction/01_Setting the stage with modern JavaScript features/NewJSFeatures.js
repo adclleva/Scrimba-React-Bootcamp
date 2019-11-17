@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 
 class NewJSFeatures extends Component {
-    state = {
+    state = { // you can have class fields in the classes
         count: 0,
         greeting: "Hi",
         age: 42
@@ -19,8 +19,8 @@ class NewJSFeatures extends Component {
         })
     }
     
-    render() {
-        const {count: number, greeting, age} = this.state
+    render() { 
+        const {count: number, greeting, age} = this.state // you can rename the variable names from state
         return (
             <div>
                 <h1>{number} {greeting} {age}</h1>
