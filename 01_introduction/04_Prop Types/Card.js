@@ -20,11 +20,7 @@ Card.propTypes = {
     height: PropTypes.number.isRequired,
     width: PropTypes.number.isRequired,
     
-    
     cardColor: PropTypes.oneOf(["blue", "red", "purple", "green"]).isRequired
-    
-    
-    
 }
 
 Card.defaultProps = {

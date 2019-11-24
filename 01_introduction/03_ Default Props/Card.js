@@ -20,7 +20,7 @@ Card.defaultProps = {
 
 export default Card
 
-import React from "react"
+// import React from "react"
 
 // this is a class compnent equivalent
 // class Card extends React.Component {
