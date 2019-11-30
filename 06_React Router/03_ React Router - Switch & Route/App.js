@@ -11,7 +11,7 @@ function App() {
             <Link to="/about">About</Link>
             
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/"> {/* We need the exact path here to get the home otherwise it will always go to the home page since the / is the first thing that the path sees */}
                     <Home />
                 </Route>
                 <Route path="/about">
