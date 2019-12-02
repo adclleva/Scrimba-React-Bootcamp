@@ -1,1 +1,1 @@
-# Scrimba-React-Bootcamp
+# My notes for learning about React 
