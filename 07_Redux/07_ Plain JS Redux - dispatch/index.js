@@ -40,3 +40,5 @@ store.dispatch(increment())
 store.dispatch({type:"WEIRD"})
 
 // the code above is essentially the fundamentals of Redux without React 
+// https://redux.js.org/api/store#subscribelistener
+
